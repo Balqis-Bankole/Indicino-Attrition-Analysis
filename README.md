@@ -3,11 +3,8 @@
 Prepared by: Balqis Bankole  
 Prepared for: Indicino Leadership Team
 
-## 1. Business Context & Objective
-
-Indicino is a digital payments company based in Accra, Ghana. Despite existing retention initiatives, the company experienced significant employee attrition, including the departure of key employees.
-
-Leadership commissioned this analysis to understand the factors associated with employee departures, identify the workforce segments with the highest observed risk, and determine where retention efforts should be prioritised.
+## 1. Client Background
+Indicino is a digital payments company based in Accra, Ghana, operating a fully on-site work model with educational grants as part of its benefits package. Despite running several retention initiatives, the company experienced a significant rise in attrition, including the resignation of key employees. Leadership requested a data-driven review to identify the underlying causes and flag employees currently at risk.
 
 The analysis covers 1,470 employee records across 35 fields, with no missing or duplicate records. Overall attrition was 16.1%, meaning approximately one in six employees left during the period represented in the dataset.
 
