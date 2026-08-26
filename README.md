@@ -134,7 +134,7 @@ For the highlighted roles, predicted risk was higher than the corresponding hist
 | Sales Representative | 39.8% | 68.4% |
 | Laboratory Technician | 23.9% | 56.8% |
 | Human Resources | 23.1% | 50.0% |
-| Sales Executive | — | 39.4% |
+| Sales Executive | 17.5% | 39.4% |
 | Research Scientist | 16.1% | 35.9% |
 
 These results suggest that the employee characteristics represented in the model contain substantial concentrations of predicted risk within these roles. They should not be interpreted as proof that attrition is increasing over time.
