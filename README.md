@@ -44,11 +44,13 @@ This analysis is organised around three metrics. Each one answers a different qu
 
 ### 4.1 The headline number, in context
 
+<img width="739" height="882" alt="waffle_attrition" src="https://github.com/user-attachments/assets/6b852d65-3f53-4f3a-8710-e383509fb73e" />
 Indicino's overall attrition rate is **16.1% (237 of 1,470 employees)**. On its own, that number is only mildly concerning: recent industry benchmarking (Mercer's 2025 U.S. turnover survey) puts average voluntary turnover around 13%, with financial-services-adjacent sectors like insurance running closer to 8%, and higher-turnover sectors like retail well above 25%. As a payments company, Indicino sits somewhere between those poles, so 16.1% is elevated but not alarming in aggregate.
 
 The reason this project doesn't stop at the headline number is that an aggregate rate hides where the real damage is happening. When the same 16.1% is broken apart by overtime status, job role, age and manager relationship, some segments are running **three to five times** the company average, while others sit near zero. A single blended KPI tells leadership that something is wrong; it can't tell them what to fix or who to protect first. That's the gap the rest of this analysis closes.
 
 ### 4.2 The overtime trap: Indicino's single strongest, most controllable driver
+<img width="349" height="324" alt="32629518-05ec-4bce-8d3b-4cc21399c0c2 3" src="https://github.com/user-attachments/assets/395c20bf-6d8d-45da-8f95-8a77ce609c36" />
 
 Employees who work overtime leave at **30.5%**, compared with **10.4%** for those who don't — roughly a 3x gap, and the 2nd largest single effect of any variable tested in this dataset. Crucially, this isn't a fluke confined to one group: the same gap reappears, with the same direction, inside every slice examined —
 
@@ -68,6 +70,7 @@ Overtime should be treated as a staffing and workload issue, not simply an HR is
 
 ### 4.3 The early-career cliff: age, tenure, and who bears the overtime cost
 
+<img width="1947" height="649" alt="Screenshot 2026-08-25 at 23 51 53 2" src="https://github.com/user-attachments/assets/b847e02e-5865-477b-bce9-8a2f36d0cd1b" />
 Attrition is not evenly distributed by age. Employees aged **18–25 leave at 35.8%** — roughly double the company average, and by far the highest of any age band — while attrition falls to its lowest point at **36–45 (9.2%)** before edging back up slightly for older bands (46–55: ~12%, 55+: ~17%).
 
 The age difference becomes more important when considered alongside overtime. An 18–25-year-old working overtime leaves at **64.1%**, nearly three times the rate of a same-age peer who isn't (**22.6%**). This is precisely the population least likely to have built the internal relationships, financial cushion, or role security to tolerate sustained overload — so it makes intuitive business sense that this is where the overtime effect is most extreme, and it's corroborated by the model's own predictions: the classifier separately estimates the **18–25 band has the lowest predicted retention of any age group (34.6%)**, versus **87.0% for 46–55-year-olds**.
@@ -98,8 +101,9 @@ This single variable also helps explain why the other two risk factors (Overtime
 
 Strengthening manager relationships may be a more practical and lower cost option than reducing workload or travel. Indicino can support new manager and employee relationships through regular one to one meetings, clear expectations and HR check ins during the first 6 to 12 months. This is especially important because attrition is higher when employees are new to their manager and are also exposed to overtime or frequent travel.
 
-### 4.6 Who to prioritise: role-level targeting, with an honest caveat about the model
+### 4.6 Who to prioritise
 
+<img width="526" height="411" alt="32629518-05ec-4bce-8d3b-4cc21399c0c2 2" src="https://github.com/user-attachments/assets/96f17b96-67ea-4a5d-b93c-82b2be356431" />
 Combining actual attrition rates with a predictive model provides a clear view of which roles require attention. A logistic regression classifier was used to predict individual attrition risk and these predictions were then analyzed by job role. Three roles stand out consistently in both the actual data and the model's predictions:
 
 | Job Role | Actual Attrition Rate | Model-Predicted Attrition Rate |
@@ -121,7 +125,7 @@ Two things are true at once here. First, the ranking is genuinely useful and wor
 The model should be used to prioritise which roles need attention, not as a forecast of how many employees will leave. For example, the results indicate that Sales Representatives should receive attention before Managers, but the 68% predicted rate does not mean that 68% of Sales Representatives will resign. HR should use the model alongside other information, such as manager feedback and exit interview themes, before deciding where to focus retention efforts. The model’s precision and recall should also be considered alongside the predicted rates so that the results are interpreted appropriately.
 
 ### 4.7 Pay recognises performance — but It is not reducing Attrition
-
+<img width="1024" height="1536" alt="1767293311958" src="https://github.com/user-attachments/assets/aa132481-a067-4a15-a070-910a98ac992c" />
 Indicino's reward system is doing exactly what it's designed to do on the compensation side: employees rated 4 receive an average salary increase of **21.85%**, nearly 8 points higher than the **14.00%** average for employees rated 3 (who make up 84.6% of the workforce). Performance is being financially recognised, and clearly so.
 
 What the data shows just as clearly is that this recognition isn't buying retention. Attrition is statistically flat across both performance groups — **16.1% for rating-3 employees versus 16.4% for rating-4 employees** — and the average salary hike is nearly identical between employees who stayed (**15.23%**) and those who left (**15.10%**). A larger salary increase does not appear to meaningfully reduce an employee’s likelihood of leaving. The same pattern can be seen in promotion timing: employees with a performance rating of 4 have gone slightly longer since their last promotion, averaging **2.32 years** compared with **2.16 years** for employees rated 3. This suggests that higher performance is being rewarded through salary increases, but is not necessarily being reflected in faster career progression.
