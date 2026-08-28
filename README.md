@@ -104,6 +104,7 @@ Strengthening manager relationships may be a more practical and lower cost optio
 ### 4.6 Who to prioritise
 
 <img width="526" height="411" alt="32629518-05ec-4bce-8d3b-4cc21399c0c2 2" src="https://github.com/user-attachments/assets/96f17b96-67ea-4a5d-b93c-82b2be356431" />
+
 Combining actual attrition rates with a predictive model provides a clear view of which roles require attention. A logistic regression classifier was used to predict individual attrition risk and these predictions were then analyzed by job role. Three roles stand out consistently in both the actual data and the model's predictions:
 
 | Job Role | Actual Attrition Rate | Model-Predicted Attrition Rate |
@@ -125,7 +126,9 @@ Two things are true at once here. First, the ranking is genuinely useful and wor
 The model should be used to prioritise which roles need attention, not as a forecast of how many employees will leave. For example, the results indicate that Sales Representatives should receive attention before Managers, but the 68% predicted rate does not mean that 68% of Sales Representatives will resign. HR should use the model alongside other information, such as manager feedback and exit interview themes, before deciding where to focus retention efforts. The model’s precision and recall should also be considered alongside the predicted rates so that the results are interpreted appropriately.
 
 ### 4.7 Pay recognises performance — but It is not reducing Attrition
-<img width="1024" height="1536" alt="1767293311958" src="https://github.com/user-attachments/assets/aa132481-a067-4a15-a070-910a98ac992c" />
+
+<img width="455" height="422" alt="32629518-05ec-4bce-8d3b-4cc21399c0c2" src="https://github.com/user-attachments/assets/5306b037-d148-4492-afcc-b1c971ded322" />
+
 Indicino's reward system is doing exactly what it's designed to do on the compensation side: employees rated 4 receive an average salary increase of **21.85%**, nearly 8 points higher than the **14.00%** average for employees rated 3 (who make up 84.6% of the workforce). Performance is being financially recognised, and clearly so.
 
 What the data shows just as clearly is that this recognition isn't buying retention. Attrition is statistically flat across both performance groups — **16.1% for rating-3 employees versus 16.4% for rating-4 employees** — and the average salary hike is nearly identical between employees who stayed (**15.23%**) and those who left (**15.10%**). A larger salary increase does not appear to meaningfully reduce an employee’s likelihood of leaving. The same pattern can be seen in promotion timing: employees with a performance rating of 4 have gone slightly longer since their last promotion, averaging **2.32 years** compared with **2.16 years** for employees rated 3. This suggests that higher performance is being rewarded through salary increases, but is not necessarily being reflected in faster career progression.
